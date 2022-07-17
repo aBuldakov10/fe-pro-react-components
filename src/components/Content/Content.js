@@ -1,5 +1,5 @@
 import React from 'react';
-import './Content.scss';
+import './_Content.scss';
 import Posts from '../Posts/Posts';
 
 const Content = () => {

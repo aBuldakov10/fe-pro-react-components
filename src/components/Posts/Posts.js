@@ -1,5 +1,5 @@
 import React from 'react';
-import './Posts.scss';
+import './_Posts.scss';
 import PostsList from '../PostsList/PostsList';
 import PropTypes from 'prop-types';
 
