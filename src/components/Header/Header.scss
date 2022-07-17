@@ -1,0 +1,12 @@
+@import '../../mixins';
+
+.header {
+  @include main-gradient;
+  padding: 20px 0;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

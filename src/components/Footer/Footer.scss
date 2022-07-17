@@ -1,0 +1,16 @@
+@import '../../mixins';
+
+.footer {
+  @include main-gradient;
+  padding: 30px 0;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.copyright {
+  align-self: center;
+  font-size: 28px;
+}

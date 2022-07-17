@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.list__item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-family: cursive;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}

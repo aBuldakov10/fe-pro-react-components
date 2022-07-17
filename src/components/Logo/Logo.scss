@@ -1,0 +1,12 @@
+@import '../../mixins';
+
+.logo {
+  @include gradient-text;
+  font-size: 48px;
+  font-weight: bold;
+  transition: all 0.3s;
+
+  &:hover {
+    @include disable-gradient;
+  }
+}

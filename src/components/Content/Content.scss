@@ -1,0 +1,21 @@
+@import '../../mixins';
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 64px;
+  @include gradient-text;
+  transition: all 0.3s;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
