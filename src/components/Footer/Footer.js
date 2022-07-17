@@ -1,5 +1,4 @@
 import React from 'react';
-import './_Footer.scss';
 import Logo from '../Logo/Logo';
 
 const Footer = () => {

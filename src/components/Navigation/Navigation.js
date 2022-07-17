@@ -1,5 +1,4 @@
 import React from 'react';
-import './_Navigation.scss';
 import PropTypes, {objectOf} from 'prop-types';
 
 const Navigation = ({navList}) => {

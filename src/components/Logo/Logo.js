@@ -1,5 +1,4 @@
 import React from 'react';
-import './_Logo.scss';
 import PropTypes from 'prop-types';
 
 const Logo = ({logoTitle}) => {

@@ -1,5 +1,4 @@
 import React from 'react';
-import './_PostsList.scss';
 import PropTypes from 'prop-types';
 
 const PostsList = ({postsListPreview}) => {
